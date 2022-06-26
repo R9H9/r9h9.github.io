@@ -1,0 +1,16 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+img,
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
