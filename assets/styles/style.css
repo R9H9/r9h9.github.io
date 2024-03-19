@@ -1,0 +1,36 @@
+/* Fonts */
+:root {
+  font-family: "Andika", "Inter", "Lato", "Fira Sans", "Source Sans 3",
+    "Open Sans", "Roboto", "Noto Sans SC", "Noto Sans TC", "Noto Color Emoji",
+    "Noto Emoji", Arial, Helvetica, sans-serif;
+}
+/* Formating */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+img,
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Schemes */
+@media (prefers-color-scheme: light) {
+  :root {
+    background: white;
+    color: black;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    background: black;
+    color: white;
+  }
+}
